@@ -176,7 +176,7 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 | #  | Topic |
 | ---  | --- |
 |Question | How do we validate that the whole system works, once we have built our Docker image? |
-| | *Enter your response here...* |
+| | *With the script validate.sh ,also by starting multiple musician containers and use telnet to check if the returened list all the musicians that we started. finaly if T we delete one  musician it will be dispeare after 5 secondes from the list .* |
 
 
 ## Constraints
