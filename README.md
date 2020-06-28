@@ -124,8 +124,7 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 |Question | What is **npm**?  |
 | | *	Node Package Manager is a command line manager ,It is the package manager for NodeJS (Like maven but for javascript).*  |
 |Question | What is the `npm install` command and what is the purpose of the `--save` flag?  |
-| | * install the dependencies from  the file package.json or passed in parameters  into the node modules .the flag --save used to install and save the dependencies
- in parameters*  |
+| | * install the dependencies from  the file package.json or passed in parameters  to the node modules .the flag --save used to install and save the dependencie inparameters*|
 |Question | How can we use the `https://www.npmjs.com/` web site?  |
 | | * we can search directly in the web site if we want to install a specific packages *  |
 |Question | In JavaScript, how can we **generate a UUID** compliant with RFC4122? |
