@@ -160,15 +160,15 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 | #  | Topic |
 | ---  | ---  |
 |Question | With Node.js, how can we listen for UDP datagrams in a multicast group? |
-| | *Enter your response here...*  |
+| | *by  socketName.bind(port, callback) function  to listen for datagram messages with a specific port .also  by using the socketName.addMembership(multicastAddress) function. to join the multicast group.*  |
 |Question | How can we use the `Map` built-in object introduced in ECMAScript 6 to implement a **dictionary**?  |
-| | *Enter your response here...* |
+| | * all the musician datawill be stored , with a map  key ->value (unique key ).* |
 |Question | How can we use the `Moment.js` npm module to help us with **date manipulations** and formatting?  |
-| | *Enter your response here...* |
+| | *At the beginging we initialize a variable time  time = require('moment'). to get the value of the current time ue use the method time().* |
 |Question | When and how do we **get rid of inactive players**?  |
-| | *Enter your response here...* |
+| | *  if the we didn't receive a datagram in the last 5 seconds a function will delete the inactive musician after a timeout without any recieved datagram .*|
 |Question | How do I implement a **simple TCP server** in Node.js?  |
-| | *Enter your response here...* |
+| | *by using  the net module,who  allow us to create TCP server by using the net.createServer(callback) function. we can  make the TCP server listen on the port with  this.TCPServer.listen(PROTOCOL.PORT). ALSO  we can specifey  define what happening with a connection with the functionn this.TCPServer.on* |
 
 
 ## Task 5: package the "auditor" app in a Docker image
