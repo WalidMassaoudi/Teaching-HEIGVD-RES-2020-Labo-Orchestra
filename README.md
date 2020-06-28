@@ -112,8 +112,7 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 |Question | What **payload** should we put in the UDP datagrams? |
 | | *The payload of the UDP datagrams should contain the musician'ID ,the instrument's name and the timestamp* |
 |Question | What **data structures** do we need in the UDP sender and receiver? When will we update these data structures? When will we query these data structures? |
-| | *The musicians have to knows every instruments names with their sounds. The auditor will use a Map so he can  keep track of every playing musician (key ad value ).
-* |
+| | *The musicians have to knows every instruments names with their sounds. The auditor will use a Map so he can  keep track of every playing musician (key ad value ).* |
 
 
 ## Task 2: implement a "musician" Node.js application
@@ -121,21 +120,22 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 | #  | Topic |
 | ---  | --- |
 |Question | In a JavaScript program, if we have an object, how can we **serialize it in JSON**? |
-| | *Enter your response here...*  |
+| | *the function JSON.stringify(data) can do the perpose *  |
 |Question | What is **npm**?  |
-| | *Enter your response here...*  |
+| | *	Node Package Manager is a command line manager ,It is the package manager for NodeJS (Like maven but for javascript).*  |
 |Question | What is the `npm install` command and what is the purpose of the `--save` flag?  |
-| | *Enter your response here...*  |
+| | * install the dependencies from  the file package.json or passed in parameters  into the node modules .the flag --save used to install and save the dependencies
+ in parameters*  |
 |Question | How can we use the `https://www.npmjs.com/` web site?  |
-| | *Enter your response here...*  |
+| | * we can search directly in the web site if we want to install a specific packages *  |
 |Question | In JavaScript, how can we **generate a UUID** compliant with RFC4122? |
-| | *Enter your response here...*  |
+| | *simply we can use the package  https://www.npmjs.com/package/uuid$. who offer multiple function *  |
 |Question | In Node.js, how can we execute a function on a **periodic** basis? |
-| | *Enter your response here...*  |
+| | *by  using  the setInterval(callback function, time interval) function and specifey the time of periodic execution *  |
 |Question | In Node.js, how can we **emit UDP datagrams**? |
-| | *Enter your response here...*  |
+| | *There is a module in Node .js named dgram garantie multiple function aith udp socket and one of this function is .send (emit ) a udp datagram*  |
 |Question | In Node.js, how can we **access the command line arguments**? |
-| | *Enter your response here...*  |
+| | *process.argv[n] contain the command line arguments and provide an indexed access to it*  |
 
 
 ## Task 3: package the "musician" app in a Docker image
