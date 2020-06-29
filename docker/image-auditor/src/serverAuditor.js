@@ -3,19 +3,18 @@
 * Autor Walid Massaoudi
 */
 
+//define port number and multicast address 
 const PORT = 2205;
 const MULTICAST_ADDRESS = '239.255.35.11';
 const TIME_SLOT = 1000; 
 const KEEP_ALIVE = 5000;
+
 const dgram = require('dgram');
 const net = require('net');
 var time = require('moment');
 
-/**
- * AuditorServer
- * Listening on the multicast for musicians data using UDP
- * Listening on the TCP port for the user requests
- */
+
+
 function serverAuditor(){
 
 	/*  createserver for tcp and udp */
@@ -23,8 +22,7 @@ function serverAuditor(){
 	this.sTCP = net.createServer();
     /* map of musicians data */
 	this.mapMusicians = new Map();
-
-
+	
   /* two function to change tcp and udp server setups*/
 	this.udpConfig();
 	this.tcpConfig();
