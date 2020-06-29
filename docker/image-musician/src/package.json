@@ -1,0 +1,11 @@
+{
+  "name": "orchestra-serverMusician",
+  "version": "1.0.0",
+  "description": "serverMusician",
+  "main" : "serverMusician.js",
+  "author": "walid massaoudi",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "uuid": "^3.3.2"
+  }
+}

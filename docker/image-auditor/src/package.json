@@ -1,0 +1,11 @@
+{
+  "name": "orchestra-serverAuditor",
+  "version": "1.0.0",
+  "description": "serverAuditor",
+  "main" : "serverAuditor.js",
+  "author": "walid massaoudi",
+  "dependencies": {
+    "moment": "^2.28.0",
+    "uuid": "^3.3.2"
+  }
+}
